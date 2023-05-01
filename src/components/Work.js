@@ -80,7 +80,9 @@ const Work = () => {
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               {/* overlay */}
-              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+              <a href='https://nikkidunlap-treasure-hunt.onrender.com/' target='_blank' rel='noopener noreferrer'>
+              <button className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 onClick={handleClick}'></button>
+              </a>
               {/* img */}
               <img
                 className='group-hover:scale-125 transition-all duration-500'
@@ -88,13 +90,18 @@ const Work = () => {
                 alt=''
               />
               {/* pretitle */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+              <a href='https://nikkidunlap-treasure-hunt.onrender.com/' target='_blank' rel='noopener noreferrer'></a>
+              <button className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50 onClick={handleClick}'>
+              <a href='https://nikkidunlap-treasure-hunt.onrender.com/' target='_blank' rel='noopener noreferrer'>
                 <span className='text-white'>Find the Treasure!</span>
-              </div>
+                </a>
+              </button>
               {/* title */}
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+              <button className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 onClick={handleClick}'>
+              <a href='https://nikkidunlap-treasure-hunt.onrender.com/' target='_blank' rel='noopener noreferrer'>
                 <span className='text-3xl text-accent'>Treasure Hunt</span>
-              </div>
+                </a>
+              </button>
             </div>
           </motion.div>
         </div>
